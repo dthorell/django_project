@@ -16,13 +16,14 @@ Install virtualenv dependencies using:
 
 ```
 $ pipenv install --dev
-$ pipenv install django whitenoise
+$ pipenv install django
 ```
 
 Initialize git repo
 ```
 $ git remote remove origin
 $ git remote add origin git@github.com:username/{{YOUR_GIT_REPO}}.git 
+$ pre-commit install
 ```
 
 Create a new project based on this template using:
