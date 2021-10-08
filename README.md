@@ -17,6 +17,7 @@ Install virtualenv dependencies using:
 ```
 $ pipenv install --dev
 $ pipenv install django
+$ pipenv shell
 ```
 
 Initialize git repo
@@ -29,7 +30,6 @@ $ pre-commit install
 Create a new project based on this template using:
 
 ```
-$ pipenv shell
 $ django-admin.py startproject --template=https://github.com/dthorell/django_project/archive/main.zip project_name src
 $ git add .
 $ git commit -m "Initial project setup"
