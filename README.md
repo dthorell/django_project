@@ -30,7 +30,8 @@ $ pre-commit install
 Create a new project based on this template using:
 
 ```
-$ django-admin.py startproject --template=https://github.com/dthorell/django_project/archive/main.zip project_name src
+$ django-admin startproject --template=https://github.com/dthorell/django_project/archive/main.zip project_name src
+$ rm src/README.md
 $ git add .
 $ git commit -m "Initial project setup"
 ```
